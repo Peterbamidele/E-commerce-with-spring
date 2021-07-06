@@ -18,5 +18,7 @@ public class User {
     private String userEmail;
     @Column(nullable = false)
     private String usertype;
+    @Column(nullable = false)
+    private String usertypes;
     
 }
