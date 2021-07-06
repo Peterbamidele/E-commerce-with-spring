@@ -16,5 +16,7 @@ public class User {
     private String lastName;
     @Column(nullable = false)
     private String userEmail;
+    @Column(nullable = false)
+    private String usertype;
     
 }
